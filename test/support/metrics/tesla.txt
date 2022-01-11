@@ -1,0 +1,3 @@
+# HELP web_app_prom_ex_prom_ex_status_info Information regarding the PromEx library. Primarily used as a source of truth for Prometheus default labels.
+# TYPE web_app_prom_ex_prom_ex_status_info gauge
+web_app_prom_ex_prom_ex_status_info 1

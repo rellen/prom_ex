@@ -39,7 +39,10 @@ defmodule WebApp.Application do
       # Work generator for Broadway
       WebApp.TempTracker,
       WebApp.CityProducer,
-      WebApp.TempProcessor
+      WebApp.TempProcessor,
+
+      {Finch, name: WebApp.Finch},
+
     ]
 
     # See https://hexdocs.pm/elixir/Supervisor.html

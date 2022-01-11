@@ -79,7 +79,9 @@ defmodule WebApp.PromEx do
       {Plugins.PlugRouter, routers: [WebAppWeb.Router], event_prefix: [:phoenix, :endpoint]},
       {Plugins.PlugCowboy,
        ignore_routes: ["/metrics"], routers: [WebAppWeb.Router, WebAppWeb.InternalRouter]},
-      PromEx.Plugins.Broadway
+      PromEx.Plugins.Broadway,
+      PromEx.Plugins.Tesla
+
 
       # Add your own PromEx metrics plugins
       # WebApp.Users.PromEx
